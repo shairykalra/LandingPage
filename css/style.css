@@ -1,15 +1,13 @@
-html,
+html {
+  scroll-padding-top: 113px;
+}
 body {
   margin: 0px;
   padding: 0px;
-  height: auto;
   font-family: "Montserrat", sans-serif;
   background-image: url("../images/background.svg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
+
 .upper-area {
   background-color: #f0b942;
   color: white;
@@ -20,10 +18,11 @@ body {
   background-color: #004b64;
   color: white;
   width: 100%;
-  padding: 5px 0px;
+  height: 80px;
 }
 .nav-link {
   margin-right: 1em !important;
+  margin-bottom: 1em !important;
 }
 .nav-link:hover {
   background: #f0b942;
@@ -33,13 +32,17 @@ body {
 .navbar-collapse {
   justify-content: flex-end;
 }
+.navbar-nav {
+  background: #004b64 !important;
+  color: white;
+}
 .navbar-toggler {
   background: #fff !important;
   color: black;
   border: 1px solid black;
 }
-.slider {
-  margin-top: 140px;
+.wrapper {
+  margin-top: 113px;
 }
 h1 {
   color: #f0b942;
@@ -141,17 +144,144 @@ p {
   background-color: #004b64;
   color: white;
 }
-.btn {
+#reach {
   background-color: #004b64;
-  color: #f0b942;
+}
+.btn {
+  background-color: #f0b942;
+  color: #004b64;
   width: 100px;
 }
 .footer {
-  background-color: #004b64;
+  background-color: #f0b942;
   color: white;
   width: 100%;
-  padding: 5px 0px;
+  padding: 7px 0px;
 }
 .footer p {
   text-align: center;
+}
+#success {
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 95px;
+  color: green;
+  display: none;
+}
+#warning {
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 95px;
+  color: red;
+  display: none;
+}
+#success1 {
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 205px;
+  color: green;
+  display: none;
+}
+#warning1 {
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 205px;
+  color: red;
+  display: none;
+}
+#success2 {
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 350px;
+  color: green;
+  display: none;
+}
+#warning2 {
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 350px;
+  color: red;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #shape {
+    display: none !important;
+  }
+  .home {
+    display: none !important;
+  }
+  .ico {
+    display: none !important;
+  }
+  .contactImg {
+    display: none !important;
+  }
+  #reach h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  #success {
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 75px;
+    color: green;
+    display: none;
+  }
+  #warning {
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 75px;
+    color: red;
+    display: none;
+  }
+  #success1 {
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 185px;
+    color: green;
+    display: none;
+  }
+  #warning1 {
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 185px;
+    color: red;
+    display: none;
+  }
+  #success2 {
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    color: green;
+    display: none;
+  }
+  #warning2 {
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    color: red;
+    display: none;
+  }
+  .cont {
+    font-size: 14px;
+  }
+  .upper-area .container {
+    text-align: center;
+  }
+  .abt h1 {
+    font-size: 25px;
+    text-align: center
 }
